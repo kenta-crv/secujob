@@ -19,10 +19,10 @@ add "/" , changefreq: 'daily', priority: 1.0
   #
   # Examples:
   #
-  add stores_path, :priority => 0.7, :changefreq => 'daily'
+  add posts_path, :priority => 0.7, :changefreq => 'daily'
 
   # '/articles/:id' を追加する
-  Store.find_each do |store|
-    add store_path(store), :lastmod => store.updated_at
+  Post.find_each do |post|
+    add post_path(post), :lastmod => post.updated_at
   end
 end
