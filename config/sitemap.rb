@@ -1,5 +1,5 @@
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "http://eatery-japan.com"
+SitemapGenerator::Sitemap.default_host = "http://xn--u9jy72glt5bkkf.net"
 
 SitemapGenerator::Sitemap.sitemaps_path = 'sitemaps/'
 
